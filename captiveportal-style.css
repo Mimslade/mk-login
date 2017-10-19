@@ -1,0 +1,11 @@
+html,body,div,article,section,footer,p,a,span{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    padding-top: 4rem;
+}
+.content{
+    max-width: 30em;
+    margin: 0px auto;
+}

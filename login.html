@@ -6,28 +6,35 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
         <title>WonderLAN captive portal</title>
+
+        <link rel="stylesheet" href="captiveportal-milligram.min.css">
+        <link rel="stylesheet" href="captiveportal-style.css">
     </head>
     <body>
-        <h1>Logga in till nätverket</h1>
-        <form method="post" action="$PORTAL_ACTION$">
-            <fieldset>
-                <legend>Logga In</legend>
-                <label for="auth_user">Username</label>
-                <input name="auth_user" id="auth_user" type="text">
+        <div class="content">
+            <section>
+                <h1>Logga in till nätverket</h1>
+                <form method="post" action="$PORTAL_ACTION$">
+                    <fieldset>
+                        <legend>Logga In</legend>
+                        <label for="auth_user">Username</label>
+                        <input name="auth_user" id="auth_user" type="text">
 
-                <label for="auth_pass">Password</label>
-                <input name="auth_pass" id="auth_pass" type="password">
+                        <label for="auth_pass">Password</label>
+                        <input name="auth_pass" id="auth_pass" type="password">
 
-                <label for="auth_voucher">Guest code</label>
-                <input name="auth_voucher" id="auth_voucher" type="text">
+                        <label for="auth_voucher">Guest code</label>
+                        <input name="auth_voucher" id="auth_voucher" type="text">
 
-                <input name="zone" type="hidden" value="$PORTAL_ZONE$">
-                <input name="accept" type="submit" value="Continue">
-            </fieldset>
-        </form>
-        <article>
-            <h1>Information</h1>
-            Gratis information här!! :D :) :P :3
-        </article>
+                        <input name="zone" type="hidden" value="$PORTAL_ZONE$">
+                        <input name="accept" type="submit" value="Continue">
+                    </fieldset>
+                </form>
+            </section>
+            <article>
+                <h1>Information</h1>
+                Gratis information här!! :D :) :P :3
+            </article>
+        </div>
     </body>
 </html>
