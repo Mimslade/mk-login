@@ -16,7 +16,9 @@ PFsense har att följande skit ska finns med för att funka.
 ```
 auth_user och auth_pass används till för att logga in med användare och lösenord.
 
-auth_user används till för att logga in men gästpass / voucher-kod
+auth_voucher används till för att logga in men gästpass / voucher-kod
+
+För tillfället så kommer för det mesta auth_couvher att användas.
 
 # Arbeta
 För guds skull jobba alltid i en egen branch. Tack!
