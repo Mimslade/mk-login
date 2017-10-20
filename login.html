@@ -11,29 +11,35 @@
         <link rel="stylesheet" href="captiveportal-style.css">
     </head>
     <body>
-        <div class="content">
-            <section>
-                <h1>Logga in till nätverket</h1>
-                <form method="post" action="$PORTAL_ACTION$">
-                    <fieldset>
-                        <label for="auth_user">Username</label>
-                        <input name="auth_user" id="auth_user" type="text">
+		<div class="contain">
+		
+		<img src="https://i.pinimg.com/originals/12/35/ac/1235accd3c70528a8b178791ca496a5d.jpg" style="float:left; margin:50px 50px 50px 200px " />
+		<img src="https://i.pinimg.com/originals/12/35/ac/1235accd3c70528a8b178791ca496a5d.jpg" style="float:right; margin:50px 200px 50px 50px"/>
+		
+			<div class="content">
+				<section>
+					<h1>Logga in till nätverket</h1>
+					<form method="post" action="$PORTAL_ACTION$">
+						<fieldset>
+							<label for="auth_user">Username</label>
+							<input name="auth_user" id="auth_user" type="text">
 
-                        <label for="auth_pass">Password</label>
-                        <input name="auth_pass" id="auth_pass" type="password">
+							<label for="auth_pass">Password</label>
+							<input name="auth_pass" id="auth_pass" type="password">
 
-                        <label for="auth_voucher">Guest code</label>
-                        <input name="auth_voucher" id="auth_voucher" type="text">
+							<label for="auth_voucher">Guest code</label>
+							<input name="auth_voucher" id="auth_voucher" type="text">
 
-                        <input name="zone" type="hidden" value="$PORTAL_ZONE$">
-                        <input name="accept" type="submit" value="Continue">
-                    </fieldset>
-                </form>
-            </section>
-            <article>
-                <h1>Information</h1>
-                Gratis information här!! :D :) :P :3
-            </article>
-        </div>
+							<input name="zone" type="hidden" value="$PORTAL_ZONE$">
+							<input name="accept" type="submit" value="Continue">
+						</fieldset>
+					</form>
+				</section>
+				<article>
+					<h1>Information</h1>
+					Gratis information här!! :D :) :P :3
+				</article>
+			</div>
+		</div>
     </body>
 </html>
