@@ -1,11 +1,12 @@
-html,body,div,article,section,footer,p,a,span{
-    padding: 0px;
-    margin: 0px;
-}
-body{
+body {
     padding-top: 4rem;
+    background: url(captiveportal-tile.jpg);
 }
-.content{
+
+.content {
     max-width: 30em;
     margin: 0px auto;
+    background-color: white;
+    border-radius: 15px;
+    padding: 15px;
 }
